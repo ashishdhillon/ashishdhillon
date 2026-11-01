@@ -32,6 +32,9 @@
 | :--- | :--- | :--- | :---: |
 | [**Night Owl Labs**](https://github.com/ashishdhillon/night-owl-labs) | Flagship student career platform connecting learning, practical projects, and career scaling (*From Labs to Limitless*). | Next.js 15, TypeScript, Tailwind CSS, Supabase, PostgreSQL | 🚀 Production |
 | [**NanoGuard**](https://github.com/ashishdhillon) | Ultra-fast zero-GPU reverse proxy for real-time LLM streaming guardrails, prompt injection mitigation, and secret scrubbing. | Python, FastAPI, ONNX Runtime, Regex Entropy | 🛡️ Active R&D |
+| [**guardkit**](https://github.com/ashishdhillon/guardkit) | Offline guardrails for LLM apps: PII with checksum validation, secrets, and prompt-injection rules plus a trained classifier. Ships an honest technical report on how author-written tests overstate detectors. | Python (zero ML deps), YAML policies, CLI | 📦 On PyPI |
+| [**injection-bench**](https://github.com/ashishdhillon/injection-bench) | Leakage-controlled, time-split benchmark for prompt-injection and jailbreak detectors, with bootstrap confidence intervals and shortcut baselines. | Python, pure-stdlib metrics | 🧪 New |
+| [**bharatid**](https://github.com/ashishdhillon/bharatid) | Detect, validate and redact Indian identifiers (Aadhaar, GSTIN, PAN, IFSC, UPI, vehicle plates) using real checksums. | Python (zero dependencies) | 🧪 New |
 | [**ResumeBuilder Pro**](https://portfolio-lake-omega-kfelb6ynn8.vercel.app) | Interactive cloud-synced resume generator and skills portfolio web app. | HTML5, Vanilla JS, Firebase Auth & Firestore, PWA | 🌐 Live App |
 
 </div>
