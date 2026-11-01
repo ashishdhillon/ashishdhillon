@@ -58,7 +58,7 @@
     </style>
   </defs>
 
-  <!-- LEFT CARD: WHAT I BUILD (Width: 465, Height: 356) -->
+  <!-- LEFT CARD: WHAT I BUILD -->
   <g transform="translate(2, 2)">
     <rect width="465" height="356" rx="18" fill="#F8FAF9" />
     <rect width="465" height="356" rx="18" fill="url(#ab_dotGrid)" />
@@ -82,47 +82,45 @@
     <!-- Card Title -->
     <text x="24" y="66" fill="#047857" class="mono" font-size="12" font-weight="700" letter-spacing="1.5">// WHAT I BUILD (MY JUTSU)</text>
 
-    <!-- Row 1: AI & LLM Guardrails -->
+    <!-- Row 1: guardkit & AI Guardrails -->
     <g transform="translate(20, 84)">
       <rect width="425" height="72" rx="12" fill="#FFFFFF" stroke="#059669" stroke-width="1.2" stroke-opacity="0.3" />
       <rect x="12" y="12" width="48" height="48" rx="10" fill="#ECFDF5" stroke="#10B981" stroke-width="1" />
       <text x="26" y="42" font-size="22">🛡️</text>
-      <text x="70" y="32" fill="#0F172A" class="sans" font-size="14" font-weight="700">AI Guardrails &amp; Streaming Defense</text>
-      <text x="70" y="50" fill="#334155" class="sans" font-size="11.5">Zero-GPU reverse proxy, regex/entropy secret scrubber,</text>
-      <text x="70" y="65" fill="#047857" class="mono" font-size="10.5" font-weight="600">LATENCY: &lt;5ms · ONNX · FASTAPI / TYPESCRIPT</text>
+      <text x="70" y="32" fill="#0F172A" class="sans" font-size="14" font-weight="700">guardkit: Offline Deterministic LLM Guards</text>
+      <text x="70" y="50" fill="#334155" class="sans" font-size="11.5">PII (Luhn/Verhoeff), secrets, prompt injection &amp; JSON check,</text>
+      <text x="70" y="65" fill="#047857" class="mono" font-size="10.5" font-weight="600">ZERO NETWORK CALLS · PYPI/PYTHON · PYRAML ONLY</text>
     </g>
 
-    <!-- Row 2: Full-Stack Web & SaaS -->
+    <!-- Row 2: bharatid & injection-bench -->
     <g transform="translate(20, 168)">
       <rect width="425" height="72" rx="12" fill="#FFFFFF" stroke="#0D9488" stroke-width="1.2" stroke-opacity="0.3" />
       <rect x="12" y="12" width="48" height="48" rx="10" fill="#F0FDFA" stroke="#14B8A6" stroke-width="1" />
-      <text x="26" y="42" font-size="22">⚡</text>
-      <text x="70" y="32" fill="#0F172A" class="sans" font-size="14" font-weight="700">Full-Stack Cloud Platforms</text>
-      <text x="70" y="50" fill="#334155" class="sans" font-size="11.5">Night Owl Labs: Next.js 15, TypeScript, Tailwind CSS,</text>
-      <text x="70" y="65" fill="#0F766E" class="mono" font-size="10.5" font-weight="600">SUPABASE POSTGRESQL · SHADCN UI · VERCEL</text>
+      <text x="26" y="42" font-size="22">🇮🇳</text>
+      <text x="70" y="32" fill="#0F172A" class="sans" font-size="14" font-weight="700">bharatid &amp; injection-bench</text>
+      <text x="70" y="50" fill="#334155" class="sans" font-size="11.5">Aadhaar/GSTIN/PAN/UPI scrubber &amp; leakage-free eval harness,</text>
+      <text x="70" y="65" fill="#0F766E" class="mono" font-size="10.5" font-weight="600">VERHOEFF CHECKSUM · BASE-36 · TIME-SPLIT BENCHMARK</text>
     </g>
 
-    <!-- Row 3: Cybersecurity & Systems -->
+    <!-- Row 3: Night Owl Labs -->
     <g transform="translate(20, 252)">
       <rect width="425" height="72" rx="12" fill="#FFFFFF" stroke="#D97706" stroke-width="1.2" stroke-opacity="0.3" />
       <rect x="12" y="12" width="48" height="48" rx="10" fill="#FFFBEB" stroke="#F59E0B" stroke-width="1" />
-      <text x="26" y="42" font-size="22">🔒</text>
-      <text x="70" y="32" fill="#0F172A" class="sans" font-size="14" font-weight="700">Cybersecurity &amp; Runtime Hardening</text>
-      <text x="70" y="50" fill="#334155" class="sans" font-size="11.5">Model threat analysis, secure Docker runtimes, zero-trust,</text>
-      <text x="70" y="65" fill="#B45309" class="mono" font-size="10.5" font-weight="600">DOCKER · LINUX · SYSTEM OPTIMIZATION</text>
+      <text x="26" y="42" font-size="22">⚡</text>
+      <text x="70" y="32" fill="#0F172A" class="sans" font-size="14" font-weight="700">Night Owl Labs: Student Career Web</text>
+      <text x="70" y="50" fill="#334155" class="sans" font-size="11.5">Learn → Build → Scale platform: Next.js 15, TypeScript,</text>
+      <text x="70" y="65" fill="#B45309" class="mono" font-size="10.5" font-weight="600">SUPABASE POSTGRESQL · SHADCN UI · VERCEL</text>
     </g>
   </g>
 
-  <!-- RIGHT CARD: HOBBIES & CHAKRA (Width: 465, Height: 356) -->
+  <!-- RIGHT CARD: HOBBIES & CHAKRA -->
   <g transform="translate(491, 2)">
     <rect width="465" height="356" rx="18" fill="#F8FAF9" />
     <rect width="465" height="356" rx="18" fill="url(#ab_dotGrid)" />
     <rect width="465" height="356" rx="18" stroke="url(#ab_borderGrad)" stroke-width="1.6" />
 
-    <!-- Card Header / Title -->
     <text x="24" y="30" fill="#047857" class="mono" font-size="12" font-weight="700" letter-spacing="1.5">// CHAKRA DISCIPLINES &amp; PASSIONS</text>
     
-    <!-- Story Segment Progress Bars (3 Bars in Leaf Green) -->
     <g transform="translate(24, 42)">
       <rect x="0" y="0" width="135" height="4" rx="2" fill="#E2E8F0" />
       <rect x="0" y="0" width="135" height="4" rx="2" fill="#059669" class="ab_b1" />
@@ -134,79 +132,75 @@
       <rect x="284" y="0" width="135" height="4" rx="2" fill="#D97706" class="ab_b3" />
     </g>
 
-    <!-- Carousel Content Box -->
     <g transform="translate(24, 62)">
       <rect width="417" height="150" rx="14" fill="#FFFFFF" stroke="#E2E8F0" stroke-width="1.2" />
 
-      <!-- Slide 1: Open Source & Code -->
+      <!-- Slide 1: guardkit & AI Guardrails -->
       <g class="ab_s1" transform="translate(18, 22)">
         <text x="0" y="16" fill="#059669" class="mono" font-size="11" font-weight="700">CHAKRA DISCIPLINE [01 / 03]</text>
-        <text x="0" y="42" fill="#0F172A" class="sans" font-size="18" font-weight="700">💻 Open-Source &amp; System Craftsmanship</text>
+        <text x="0" y="42" fill="#0F172A" class="sans" font-size="18" font-weight="700">🛡️ AI Guardrails &amp; Fūinjutsu (Seals)</text>
         <text x="0" y="68" fill="#334155" class="sans" font-size="13">
-          <tspan x="0" dy="0">Writing elegant code, crafting autonomous agent tools,</tspan>
-          <tspan x="0" dy="20">and optimizing performance down to the byte on macOS.</tspan>
+          <tspan x="0" dy="0">Building deterministic guardrails (`guardkit`), Verhoeff</tspan>
+          <tspan x="0" dy="20">checksum PII scrubbers (`bharatid`), and leak-free evals.</tspan>
         </text>
-        <rect x="0" y="98" width="120" height="22" rx="6" fill="#ECFDF5" />
-        <text x="10" y="113" fill="#047857" class="mono" font-size="10" font-weight="700">TAI-JUTSU (CODE)</text>
+        <rect x="0" y="98" width="145" height="22" rx="6" fill="#ECFDF5" />
+        <text x="10" y="113" fill="#047857" class="mono" font-size="10" font-weight="700">GUARDKIT · BHARATID</text>
       </g>
 
-      <!-- Slide 2: AI Safety & R&D -->
+      <!-- Slide 2: Full-Stack Engineering -->
       <g class="ab_s2" transform="translate(18, 22)">
         <text x="0" y="16" fill="#0D9488" class="mono" font-size="11" font-weight="700">CHAKRA DISCIPLINE [02 / 03]</text>
-        <text x="0" y="42" fill="#0F172A" class="sans" font-size="18" font-weight="700">🧠 AI Safety &amp; Guardrail Research</text>
+        <text x="0" y="42" fill="#0F172A" class="sans" font-size="18" font-weight="700">⚡ Full-Stack Platforms &amp; Architecture</text>
         <text x="0" y="68" fill="#334155" class="sans" font-size="13">
-          <tspan x="0" dy="0">Exploring prompt injection mitigations, reverse proxy</tspan>
-          <tspan x="0" dy="20">streaming defenses, and real-time LLM security architectures.</tspan>
+          <tspan x="0" dy="0">Architecting Night Owl Labs with Next.js 15, TypeScript,</tspan>
+          <tspan x="0" dy="20">Tailwind CSS, and Supabase PostgreSQL with auth &amp; storage.</tspan>
         </text>
-        <rect x="0" y="98" width="145" height="22" rx="6" fill="#F0FDFA" />
-        <text x="10" y="113" fill="#0F766E" class="mono" font-size="10" font-weight="700">NIN-JUTSU (AI DEFENSE)</text>
+        <rect x="0" y="98" width="155" height="22" rx="6" fill="#F0FDFA" />
+        <text x="10" y="113" fill="#0F766E" class="mono" font-size="10" font-weight="700">NIGHT OWL LABS (V1)</text>
       </g>
 
-      <!-- Slide 3: Anime, Gaming & Growth -->
+      <!-- Slide 3: System Optimization & Anime -->
       <g class="ab_s3" transform="translate(18, 22)">
         <text x="0" y="16" fill="#D97706" class="mono" font-size="11" font-weight="700">CHAKRA DISCIPLINE [03 / 03]</text>
-        <text x="0" y="42" fill="#0F172A" class="sans" font-size="18" font-weight="700">🍥 Anime, Gaming &amp; Fitness</text>
+        <text x="0" y="42" fill="#0F172A" class="sans" font-size="18" font-weight="700">🍥 System Craftsmanship &amp; Anime</text>
         <text x="0" y="68" fill="#334155" class="sans" font-size="13">
-          <tspan x="0" dy="0">Drawing energy from Naruto &amp; Shonen anime, gaming,</tspan>
-          <tspan x="0" dy="20">staying active with workouts, and continuous learning.</tspan>
+          <tspan x="0" dy="0">Drawing energy from Naruto &amp; Shonen anime, autonomous</tspan>
+          <tspan x="0" dy="20">Mac optimizations, active fitness, and continuous R&amp;D.</tspan>
         </text>
         <rect x="0" y="98" width="140" height="22" rx="6" fill="#FFFBEB" />
-        <text x="10" y="113" fill="#B45309" class="mono" font-size="10" font-weight="700">GEN-JUTSU (CREATIVE)</text>
+        <text x="10" y="113" fill="#B45309" class="mono" font-size="10" font-weight="700">SHINOBI PHILOSOPHY</text>
       </g>
     </g>
 
-    <!-- Three Daily Chakra Rings (Bottom) -->
+    <!-- Three Daily Chakra Rings -->
     <g transform="translate(24, 230)">
       <text x="0" y="12" fill="#64748B" class="mono" font-size="11" font-weight="700">DAILY CHAKRA POOLS (HOURLY SYNC):</text>
 
-      <!-- Ring 1: Code Chakra (Emerald) -->
       <g transform="translate(25, 60)">
         <circle cx="28" cy="28" r="24" stroke="#E2E8F0" stroke-width="4.5" fill="none" />
         <circle cx="28" cy="28" r="24" stroke="#059669" stroke-width="4.5" fill="none" stroke-dasharray="150" stroke-dashoffset="15" stroke-linecap="round" transform="rotate(-90 28 28)">
           <animate attributeName="stroke-dashoffset" values="150; 15" dur="2s" fill="freeze" />
         </circle>
         <text x="28" y="32" text-anchor="middle" fill="#0F172A" class="mono" font-size="11" font-weight="700">96%</text>
-        <text x="28" y="70" text-anchor="middle" fill="#047857" class="sans" font-size="11" font-weight="700">Code</text>
+        <text x="28" y="70" text-anchor="middle" fill="#047857" class="sans" font-size="11" font-weight="700">AI Guards</text>
       </g>
 
-      <!-- Ring 2: AI Security (Teal) -->
       <g transform="translate(165, 60)">
         <circle cx="28" cy="28" r="24" stroke="#E2E8F0" stroke-width="4.5" fill="none" />
         <circle cx="28" cy="28" r="24" stroke="#0D9488" stroke-width="4.5" fill="none" stroke-dasharray="150" stroke-dashoffset="25" stroke-linecap="round" transform="rotate(-90 28 28)">
           <animate attributeName="stroke-dashoffset" values="150; 25" dur="2s" fill="freeze" />
         </circle>
-        <text x="28" y="32" text-anchor="middle" fill="#0F172A" class="mono" font-size="11" font-weight="700">92%</text>
-        <text x="28" y="70" text-anchor="middle" fill="#0F766E" class="sans" font-size="11" font-weight="700">AI Defense</text>
+        <text x="28" y="32" text-anchor="middle" fill="#0F172A" class="mono" font-size="11" font-weight="700">94%</text>
+        <text x="28" y="70" text-anchor="middle" fill="#0F766E" class="sans" font-size="11" font-weight="700">Full-Stack</text>
       </g>
 
-      <!-- Ring 3: System Ops (Amber) -->
       <g transform="translate(305, 60)">
         <circle cx="28" cy="28" r="24" stroke="#E2E8F0" stroke-width="4.5" fill="none" />
         <circle cx="28" cy="28" r="24" stroke="#D97706" stroke-width="4.5" fill="none" stroke-dasharray="150" stroke-dashoffset="35" stroke-linecap="round" transform="rotate(-90 28 28)">
           <animate attributeName="stroke-dashoffset" values="150; 35" dur="2s" fill="freeze" />
         </circle>
-        <text x="28" y="32" text-anchor="middle" fill="#0F172A" class="mono" font-size="11" font-weight="700">88%</text>
-        <text x="28" y="70" text-anchor="middle" fill="#B45309" class="sans" font-size="11" font-weight="700">System Ops</text>
+        <text x="28" y="32" text-anchor="middle" fill="#0F172A" class="mono" font-size="11" font-weight="700">89%</text>
+        <text x="28" y="70" text-anchor="middle" fill="#B45309" class="sans" font-size="11" font-weight="700">Evaluations</text>
       </g>
     </g>
   </g>
