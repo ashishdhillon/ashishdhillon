@@ -1,22 +1,22 @@
 <div align="center">
 
   <!-- ==================== 1. HERO VIEWPORT ==================== -->
-  <img src="hero.svg?v=1" width="100%" alt="Ashish Dhillon - Shinobi Hero Viewfinder" />
+  <img src="hero.svg?v=2" width="100%" alt="Ashish Dhillon - Leaf Village Hero Viewfinder" />
 
   <br/><br/>
 
   <!-- ==================== 2. ABOUT & CHAKRA LIFE ==================== -->
-  <img src="about-life.svg?v=1" width="100%" alt="What I Build & Chakra Disciplines" />
+  <img src="about-life.svg?v=2" width="100%" alt="What I Build & Chakra Disciplines" />
 
   <br/><br/>
 
   <!-- ==================== 3. TECH STACK ORBIT ==================== -->
-  <img src="stack.svg?v=1" width="100%" alt="Arsenal of Jutsu - Orbiting Tech Stack" />
+  <img src="stack.svg?v=2" width="100%" alt="Arsenal of Jutsu - Orbiting Tech Stack" />
 
   <br/><br/>
 
   <!-- ==================== 4. ID BADGE & DASHBOARD ==================== -->
-  <img src="id-dashboard.svg?v=1" width="100%" alt="Konoha Dev Lanyard ID Badge & Telemetry Dashboard" />
+  <img src="id-dashboard.svg?v=2" width="100%" alt="Konoha Dev Lanyard ID Badge & Telemetry Dashboard" />
 
   <br/><br/>
 
@@ -44,9 +44,9 @@
 
   <!-- 3D Contribution Skyline (Night View) -->
   <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="profile-3d-contrib/profile-night-view.svg?v=1">
-    <source media="(prefers-color-scheme: light)" srcset="profile-3d-contrib/profile-green-animate.svg?v=1">
-    <img src="profile-3d-contrib/profile-night-view.svg?v=1" width="100%" alt="Ashish's 3D Contribution City" onerror="this.style.display='none'" />
+    <source media="(prefers-color-scheme: dark)" srcset="profile-3d-contrib/profile-night-view.svg?v=2">
+    <source media="(prefers-color-scheme: light)" srcset="profile-3d-contrib/profile-green-animate.svg?v=2">
+    <img src="profile-3d-contrib/profile-green-animate.svg?v=2" width="100%" alt="Ashish's 3D Contribution City" onerror="this.style.display='none'" />
   </picture>
 
   <!-- Contribution Snake Fallback/Complement -->
@@ -65,13 +65,13 @@
 <div align="center">
 
   <!-- ==================== 5. CONNECT FOOTER ==================== -->
-  <img src="connect.svg?v=1" width="100%" alt="Shinobi Summon & Connect Links" />
+  <img src="connect.svg?v=2" width="100%" alt="Shinobi Summon & Connect Links" />
 
   <br/><br/>
 
   <p align="center">
     <a href="https://portfolio-lake-omega-kfelb6ynn8.vercel.app" target="_blank">
-      <img src="https://img.shields.io/badge/🌐_Night_Owl_Labs-Visit_Platform-FF7A00?style=for-the-badge&logoColor=white" alt="Platform" />
+      <img src="https://img.shields.io/badge/🌐_Night_Owl_Labs-Visit_Platform-059669?style=for-the-badge&logoColor=white" alt="Platform" />
     </a>
     &nbsp;
     <a href="https://github.com/ashishdhillon" target="_blank">

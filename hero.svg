@@ -1,26 +1,26 @@
 <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="960" height="420" viewBox="0 0 960 420" fill="none">
   <defs>
-    <!-- Card Gradients -->
+    <!-- Card Gradients - Leaf Village Theme (Light & Jade/Emerald) -->
     <radialGradient id="hero_bgGlow" cx="80%" cy="30%" r="70%">
-      <stop offset="0%" stop-color="#ff7a00" stop-opacity="0.18" />
-      <stop offset="45%" stop-color="#22d3ee" stop-opacity="0.08" />
-      <stop offset="100%" stop-color="#0b0e17" stop-opacity="0" />
+      <stop offset="0%" stop-color="#10B981" stop-opacity="0.12" />
+      <stop offset="50%" stop-color="#F59E0B" stop-opacity="0.06" />
+      <stop offset="100%" stop-color="#F8FAF9" stop-opacity="0" />
     </radialGradient>
     <linearGradient id="hero_borderGrad" x1="0%" y1="0%" x2="100%" y2="100%">
-      <stop offset="0%" stop-color="#ff7a00" stop-opacity="0.8" />
-      <stop offset="30%" stop-color="#f59e0b" stop-opacity="0.4" />
-      <stop offset="70%" stop-color="#06b6d4" stop-opacity="0.4" />
-      <stop offset="100%" stop-color="#3b82f6" stop-opacity="0.8" />
+      <stop offset="0%" stop-color="#059669" stop-opacity="0.8" />
+      <stop offset="35%" stop-color="#10B981" stop-opacity="0.5" />
+      <stop offset="70%" stop-color="#F59E0B" stop-opacity="0.6" />
+      <stop offset="100%" stop-color="#DC2626" stop-opacity="0.7" />
     </linearGradient>
     <linearGradient id="hero_nameGrad" x1="0%" y1="0%" x2="100%" y2="0%">
-      <stop offset="0%" stop-color="#FF9E2C" />
-      <stop offset="40%" stop-color="#FF6B00" />
-      <stop offset="80%" stop-color="#22D3EE" />
-      <stop offset="100%" stop-color="#38BDF8" />
+      <stop offset="0%" stop-color="#047857" />
+      <stop offset="45%" stop-color="#059669" />
+      <stop offset="85%" stop-color="#D97706" />
+      <stop offset="100%" stop-color="#EA580C" />
     </linearGradient>
     <linearGradient id="hero_scrubGrad" x1="0%" y1="0%" x2="100%" y2="0%">
-      <stop offset="0%" stop-color="#FF7A00" />
-      <stop offset="100%" stop-color="#00F0FF" />
+      <stop offset="0%" stop-color="#059669" />
+      <stop offset="100%" stop-color="#10B981" />
     </linearGradient>
 
     <!-- Clip Path for Hero Character -->
@@ -28,9 +28,9 @@
       <rect x="560" y="45" width="360" height="330" rx="16" />
     </clipPath>
 
-    <!-- Subtle Dot Pattern -->
+    <!-- Subtle Dot Pattern (Light Leaf Mist) -->
     <pattern id="hero_dotGrid" width="20" height="20" patternUnits="userSpaceOnUse">
-      <circle cx="2" cy="2" r="1" fill="#334155" fill-opacity="0.25" />
+      <circle cx="2" cy="2" r="1.2" fill="#94A3B8" fill-opacity="0.25" />
     </pattern>
 
     <style>
@@ -44,10 +44,6 @@
       @keyframes hero_recBlink {
         0%, 100% { opacity: 1; }
         50% { opacity: 0.1; }
-      }
-      @keyframes hero_scrubMove {
-        0% { width: 0px; }
-        100% { width: 340px; }
       }
       @keyframes hero_textCycle {
         0%, 30% { opacity: 1; transform: translateY(0); }
@@ -68,10 +64,6 @@
         0%, 100% { transform: translateY(0px); }
         50% { transform: translateY(-6px); }
       }
-      @keyframes hero_chakraSpin {
-        0% { transform: rotate(0deg); }
-        100% { transform: rotate(360deg); }
-      }
 
       .hero_rec { animation: hero_recBlink 1.2s infinite ease-in-out; }
       .hero_pulseDot { animation: hero_pulse 2s infinite ease-in-out; }
@@ -79,51 +71,49 @@
       .hero_cycle1 { animation: hero_textCycle 9s infinite; }
       .hero_cycle2 { animation: hero_textCycle2 9s infinite; }
       .hero_cycle3 { animation: hero_textCycle3 9s infinite; }
-      .hero_scrubber { animation: hero_scrubMove 5s infinite linear; }
     </style>
   </defs>
 
-  <!-- Main Card Background -->
-  <rect x="2" y="2" width="956" height="416" rx="20" fill="#0B0D17" />
+  <!-- Main Card Background (Light Leaf Parchment / Mist Glass) -->
+  <rect x="2" y="2" width="956" height="416" rx="20" fill="#F8FAF9" />
   <rect x="2" y="2" width="956" height="416" rx="20" fill="url(#hero_dotGrid)" />
   <rect x="2" y="2" width="956" height="416" rx="20" fill="url(#hero_bgGlow)" />
-  <rect x="2" y="2" width="956" height="416" rx="20" stroke="url(#hero_borderGrad)" stroke-width="1.5" />
+  <rect x="2" y="2" width="956" height="416" rx="20" stroke="url(#hero_borderGrad)" stroke-width="1.8" />
 
-  <!-- Terminal Top Bar -->
-  <path d="M 2 22 C 2 11, 11 2, 22 2 L 938 2 C 949 2, 958 11, 958 22 L 958 38 L 2 38 Z" fill="#0F1322" />
-  <line x1="2" y1="38" x2="958" y2="38" stroke="#1E293B" stroke-width="1" />
+  <!-- Terminal Top Bar (Konoha Scroll Top) -->
+  <path d="M 2 22 C 2 11, 11 2, 22 2 L 938 2 C 949 2, 958 11, 958 22 L 958 38 L 2 38 Z" fill="#E8EFEA" />
+  <line x1="2" y1="38" x2="958" y2="38" stroke="#CBD5E1" stroke-width="1" />
   
-  <!-- Terminal Buttons -->
+  <!-- Terminal Buttons (Uzumaki Red, Leaf Gold, Leaf Emerald) -->
   <circle cx="24" cy="20" r="5.5" fill="#EF4444" />
   <circle cx="42" cy="20" r="5.5" fill="#F59E0B" />
   <circle cx="60" cy="20" r="5.5" fill="#10B981" />
 
   <!-- Terminal Prompt -->
   <g class="mono" font-size="12">
-    <text x="85" y="24" fill="#64748B">shinobi@konoha:</text>
-    <text x="185" y="24" fill="#FF7A00">~$</text>
-    <text x="205" y="24" fill="#38BDF8">ninja-summon</text>
-    <text x="290" y="24" fill="#94A3B8">--spec="ai-security"</text>
-    <text x="440" y="24" fill="#10B981">[ACTIVE]</text>
+    <text x="85" y="24" fill="#047857" font-weight="700">shinobi@konohagakure:</text>
+    <text x="245" y="24" fill="#EA580C">~$</text>
+    <text x="265" y="24" fill="#0F172A" font-weight="600">ninja-summon</text>
+    <text x="365" y="24" fill="#059669">--village="hidden-leaf"</text>
+    <text x="535" y="24" fill="#059669" font-weight="700">[LEAF DEV CORPS]</text>
   </g>
 
   <!-- Left Content Area -->
   <g transform="translate(45, 60)">
     
-    <!-- Open to Collab / Shinobi Pill -->
-    <rect x="0" y="0" width="220" height="26" rx="13" fill="#151C2C" stroke="#22D3EE" stroke-width="1" stroke-opacity="0.4" />
-    <circle cx="14" cy="13" r="4.5" fill="#10B981" class="hero_pulseDot" />
-    <text x="26" y="17" fill="#22D3EE" class="mono" font-size="10.5" font-weight="600" letter-spacing="1">OPEN TO MISSIONS // JŌNIN</text>
+    <!-- Open to Collab / Leaf Village Pill -->
+    <rect x="0" y="0" width="245" height="28" rx="14" fill="#ECFDF5" stroke="#10B981" stroke-width="1.2" />
+    <circle cx="16" cy="14" r="5" fill="#059669" class="hero_pulseDot" />
+    <text x="30" y="18" fill="#065F46" class="mono" font-size="11" font-weight="700" letter-spacing="1">HIDDEN LEAF SHINOBI // JŌNIN</text>
 
     <!-- Greeting -->
-    <text x="2" y="55" fill="#94A3B8" class="sans" font-size="16" font-weight="500">Hi there, I&apos;m</text>
+    <text x="2" y="55" fill="#475569" class="sans" font-size="16" font-weight="600">Hi there, I&apos;m</text>
 
-    <!-- Animated Name -->
+    <!-- Animated Name (Forest Leaf Gradient) -->
     <text x="0" y="105" fill="url(#hero_nameGrad)" class="sans" font-size="44" font-weight="800" letter-spacing="-0.5">Ashish Dhillon</text>
 
-    <!-- Konoha Crest Icon Next to Name -->
-    <g transform="translate(340, 72) scale(0.065)" fill="#FF7A00">
-      <!-- Stylized Konoha Leaf -->
+    <!-- Konoha Leaf Crest Icon -->
+    <g transform="translate(340, 72) scale(0.065)" fill="#059669">
       <path d="M256,48C141.1,48,48,141.1,48,256s93.1,208,208,208s208-93.1,208-208S370.9,48,256,48z M256,424 c-92.6,0-168-75.4-168-168c0-44.5,17.3-85,45.7-115.1l32.5,32.5C148.6,192.5,138,223,138,256c0,65.1,52.9,118,118,118 s118-52.9,118-118c0-38.6-18.7-72.9-47.5-94.4l28.8-35.8C391.8,155.6,414,203.2,414,256C414,348.6,338.6,424,256,424z" fill-opacity="0.3"/>
       <path d="M256,160c-53,0-96,43-96,96s43,96,96,96s96-43,96-96c0-26.5-10.7-50.5-28.1-67.9l-22.6,22.6 C311.6,221.1,318,237.8,318,256c0,34.2-27.8,62-62,62s-62-27.8-62-62s27.8-62,62-62c16.3,0,31.2,6.3,42.4,16.6l23.5-23.5 C304.5,171.1,281.3,160,256,160z" />
     </g>
@@ -131,64 +121,61 @@
     <!-- Cycling Role Titles -->
     <g transform="translate(2, 138)">
       <g class="hero_cycle1">
-        <text x="0" y="0" fill="#F8FAFC" class="sans" font-size="18" font-weight="600">🛡️ AI/ML &amp; Cybersecurity Shinobi</text>
+        <text x="0" y="0" fill="#0F172A" class="sans" font-size="18" font-weight="700">🍃 Hidden Leaf Architect &amp; System Craftsman</text>
       </g>
       <g class="hero_cycle2">
-        <text x="0" y="0" fill="#F8FAFC" class="sans" font-size="18" font-weight="600">⚡ Full-Stack Architect &amp; System Craftsman</text>
+        <text x="0" y="0" fill="#0F172A" class="sans" font-size="18" font-weight="700">🛡️ AI/ML &amp; Cybersecurity Shinobi</text>
       </g>
       <g class="hero_cycle3">
-        <text x="0" y="0" fill="#F8FAFC" class="sans" font-size="18" font-weight="600">📜 Creator of Night Owl Labs</text>
+        <text x="0" y="0" fill="#0F172A" class="sans" font-size="18" font-weight="700">📜 Founder &amp; Creator of Night Owl Labs</text>
       </g>
     </g>
 
     <!-- Pitch / Description -->
-    <text x="2" y="172" fill="#94A3B8" class="sans" font-size="13.5" font-weight="400">
+    <text x="2" y="172" fill="#334155" class="sans" font-size="14" font-weight="500">
       <tspan x="2" dy="0">Engineering resilient LLM guardrails, runtime threat defense,</tspan>
-      <tspan x="2" dy="20">and full-stack cloud architectures — one jutsu at a time.</tspan>
+      <tspan x="2" dy="21">and full-stack cloud architectures — one jutsu at a time.</tspan>
     </text>
 
-    <!-- Stat Badges / Meta Row -->
+    <!-- Stat Badges / Meta Row (Crisp Light Cards) -->
     <g transform="translate(2, 222)">
       <!-- Badge 1: Night Owl Labs -->
       <g transform="translate(0, 0)">
-        <rect width="145" height="48" rx="10" fill="#13192B" stroke="#1E293B" stroke-width="1" />
-        <text x="14" y="20" fill="#FF7A00" class="sans" font-size="14" font-weight="700">Night Owl Labs</text>
-        <text x="14" y="36" fill="#64748B" class="mono" font-size="10">FLAGSHIP PLATFORM</text>
+        <rect width="145" height="50" rx="10" fill="#FFFFFF" stroke="#059669" stroke-width="1.2" stroke-opacity="0.4" />
+        <text x="14" y="21" fill="#047857" class="sans" font-size="14" font-weight="800">Night Owl Labs</text>
+        <text x="14" y="38" fill="#64748B" class="mono" font-size="10" font-weight="600">FLAGSHIP PLATFORM</text>
       </g>
       <!-- Badge 2: AI Guardrails -->
       <g transform="translate(155, 0)">
-        <rect width="145" height="48" rx="10" fill="#13192B" stroke="#1E293B" stroke-width="1" />
-        <text x="14" y="20" fill="#22D3EE" class="sans" font-size="14" font-weight="700">Zero-GPU Proxy</text>
-        <text x="14" y="36" fill="#64748B" class="mono" font-size="10">STREAMING DEFENSE</text>
+        <rect width="145" height="50" rx="10" fill="#FFFFFF" stroke="#0D9488" stroke-width="1.2" stroke-opacity="0.4" />
+        <text x="14" y="21" fill="#0F766E" class="sans" font-size="14" font-weight="800">Zero-GPU Proxy</text>
+        <text x="14" y="38" fill="#64748B" class="mono" font-size="10" font-weight="600">STREAMING DEFENSE</text>
       </g>
       <!-- Badge 3: Village / Rank -->
       <g transform="translate(310, 0)">
-        <rect width="135" height="48" rx="10" fill="#13192B" stroke="#1E293B" stroke-width="1" />
-        <text x="14" y="20" fill="#A855F7" class="sans" font-size="14" font-weight="700">Leaf Village</text>
-        <text x="14" y="36" fill="#64748B" class="mono" font-size="10">RANK // JŌNIN DEV</text>
+        <rect width="135" height="50" rx="10" fill="#FFFFFF" stroke="#D97706" stroke-width="1.2" stroke-opacity="0.4" />
+        <text x="14" y="21" fill="#B45309" class="sans" font-size="14" font-weight="800">Hidden Leaf</text>
+        <text x="14" y="38" fill="#64748B" class="mono" font-size="10" font-weight="600">RANK // JŌNIN DEV</text>
       </g>
     </g>
 
     <!-- Location / Quote Footer Note -->
     <text x="4" y="310" fill="#64748B" class="mono" font-size="11">
-      <tspan fill="#F59E0B">NINJA WAY:</tspan> "Never go back on my word, and never push untested code."
+      <tspan fill="#D97706" font-weight="700">NINJA WAY:</tspan> "Never go back on my word, and never push untested code."
     </text>
   </g>
 
   <!-- Right Side: Camera Viewfinder & Character Image -->
   <g transform="translate(560, 52)">
     
-    <!-- Viewfinder Background Container -->
-    <rect x="0" y="0" width="355" height="325" rx="16" fill="#0C101D" stroke="#1E293B" stroke-width="1" />
-    
-    <!-- Viewfinder Outer Glow -->
-    <rect x="0" y="0" width="355" height="325" rx="16" fill="none" stroke="#FF7A00" stroke-width="1" stroke-opacity="0.3" />
+    <!-- Viewfinder Background Container (Deep Leaf Hunter Green Bezel) -->
+    <rect x="0" y="0" width="355" height="325" rx="16" fill="#13241C" stroke="#059669" stroke-width="1.5" />
 
-    <!-- Embedded Anime Developer Character (Base64) -->
+    <!-- Embedded Anime Developer Character -->
     <g class="hero_floatChar">
       <!-- Chakra Aura Ring -->
-      <circle cx="177" cy="155" r="130" stroke="#00F0FF" stroke-width="2" stroke-opacity="0.3" stroke-dasharray="8 6" />
-      <circle cx="177" cy="155" r="145" stroke="#FF7A00" stroke-width="1.5" stroke-opacity="0.25" stroke-dasharray="14 10" />
+      <circle cx="177" cy="155" r="130" stroke="#10B981" stroke-width="2" stroke-opacity="0.5" stroke-dasharray="8 6" />
+      <circle cx="177" cy="155" r="145" stroke="#F59E0B" stroke-width="1.5" stroke-opacity="0.4" stroke-dasharray="14 10" />
 
       <!-- The Character Image clipped -->
       <g clip-path="url(#hero_charClip)" transform="translate(-560, -45)">
@@ -196,40 +183,36 @@
       </g>
     </g>
 
-    <!-- Camera Viewfinder Corner Brackets -->
-    <!-- Top-Left -->
-    <path d="M 12 24 L 12 12 L 24 12" stroke="#FF7A00" stroke-width="2.5" fill="none" stroke-linecap="round" />
-    <!-- Top-Right -->
-    <path d="M 343 24 L 343 12 L 331 12" stroke="#FF7A00" stroke-width="2.5" fill="none" stroke-linecap="round" />
-    <!-- Bottom-Left -->
-    <path d="M 12 301 L 12 313 L 24 313" stroke="#FF7A00" stroke-width="2.5" fill="none" stroke-linecap="round" />
-    <!-- Bottom-Right -->
-    <path d="M 343 301 L 343 313 L 331 313" stroke="#FF7A00" stroke-width="2.5" fill="none" stroke-linecap="round" />
+    <!-- Camera Viewfinder Corner Brackets (Leaf Gold & Emerald) -->
+    <path d="M 12 24 L 12 12 L 24 12" stroke="#10B981" stroke-width="2.5" fill="none" stroke-linecap="round" />
+    <path d="M 343 24 L 343 12 L 331 12" stroke="#10B981" stroke-width="2.5" fill="none" stroke-linecap="round" />
+    <path d="M 12 301 L 12 313 L 24 313" stroke="#10B981" stroke-width="2.5" fill="none" stroke-linecap="round" />
+    <path d="M 343 301 L 343 313 L 331 313" stroke="#10B981" stroke-width="2.5" fill="none" stroke-linecap="round" />
 
     <!-- Blinking REC Indicator -->
     <g transform="translate(20, 24)">
       <circle cx="5" cy="5" r="4.5" fill="#EF4444" class="hero_rec" />
-      <text x="15" y="9" fill="#EF4444" class="mono" font-size="10.5" font-weight="700">REC</text>
+      <text x="15" y="9" fill="#F87171" class="mono" font-size="10.5" font-weight="700">REC</text>
       <text x="45" y="9" fill="#94A3B8" class="mono" font-size="10.5">[00:04:12]</text>
     </g>
 
     <!-- Viewfinder Resolution / Battery -->
     <g transform="translate(270, 24)">
-      <text x="0" y="9" fill="#22D3EE" class="mono" font-size="10" font-weight="600">4K · 60FPS</text>
+      <text x="0" y="9" fill="#34D399" class="mono" font-size="10" font-weight="700">4K · 60FPS</text>
     </g>
 
     <!-- Scrubber Bar Overlay at Bottom -->
     <g transform="translate(10, 280)">
-      <rect x="0" y="0" width="335" height="35" rx="8" fill="#0A0E17" fill-opacity="0.85" stroke="#1E293B" stroke-width="0.75" />
+      <rect x="0" y="0" width="335" height="35" rx="8" fill="#0B1510" fill-opacity="0.9" stroke="#059669" stroke-width="0.8" />
       
       <!-- Video Name & Play -->
-      <polygon points="12,12 12,24 22,18" fill="#FF7A00" />
-      <text x="28" y="20" fill="#F8FAFC" class="mono" font-size="10" font-weight="600">SHINOBI_CORE.MP4</text>
-      <text x="260" y="20" fill="#64748B" class="mono" font-size="9.5">4.0s / LOOP</text>
+      <polygon points="12,12 12,24 22,18" fill="#10B981" />
+      <text x="28" y="20" fill="#F8FAFC" class="mono" font-size="10" font-weight="600">KONOHA_SHINOBI.MP4</text>
+      <text x="255" y="20" fill="#6EE7B7" class="mono" font-size="9.5">4.0s / LOOP</text>
       
       <!-- Progress Bar Track -->
-      <rect x="12" y="26" width="310" height="3.5" rx="2" fill="#1E293B" />
-      <!-- Animated Progress Fill -->
+      <rect x="12" y="26" width="310" height="3.5" rx="2" fill="#1C382B" />
+      <!-- Animated Progress Fill (Leaf Green) -->
       <rect x="12" y="26" width="310" height="3.5" rx="2" fill="url(#hero_scrubGrad)">
         <animate attributeName="width" values="0; 310" dur="4s" repeatCount="indefinite" />
       </rect>

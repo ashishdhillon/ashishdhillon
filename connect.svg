@@ -1,40 +1,34 @@
 <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="960" height="340" viewBox="0 0 960 340" fill="none">
   <defs>
     <linearGradient id="cn_borderGrad" x1="0%" y1="0%" x2="100%" y2="100%">
-      <stop offset="0%" stop-color="#FF7A00" stop-opacity="0.8" />
-      <stop offset="50%" stop-color="#22D3EE" stop-opacity="0.4" />
-      <stop offset="100%" stop-color="#A855F7" stop-opacity="0.8" />
+      <stop offset="0%" stop-color="#059669" stop-opacity="0.8" />
+      <stop offset="50%" stop-color="#10B981" stop-opacity="0.5" />
+      <stop offset="100%" stop-color="#D97706" stop-opacity="0.7" />
     </linearGradient>
 
-    <!-- Clip Path for Pointing Character -->
     <clipPath id="cn_charClip">
       <rect x="30" y="25" width="250" height="290" rx="16" />
     </clipPath>
 
     <pattern id="cn_dotGrid" width="20" height="20" patternUnits="userSpaceOnUse">
-      <circle cx="2" cy="2" r="1" fill="#334155" fill-opacity="0.2" />
+      <circle cx="2" cy="2" r="1.2" fill="#94A3B8" fill-opacity="0.25" />
     </pattern>
 
     <style>
       .mono { font-family: 'SF Mono', 'Fira Code', 'Roboto Mono', Menlo, monospace; }
       .sans { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif; }
 
-      /* Nudging Arrow Animation */
       @keyframes cn_nudge {
         0%, 100% { transform: translateX(0); }
         50% { transform: translateX(6px); }
       }
-
-      /* Floating Character Animation */
       @keyframes cn_float {
         0%, 100% { transform: translateY(0); }
         50% { transform: translateY(-5px); }
       }
-
-      /* Chakra Aura Glow */
       @keyframes cn_pulse {
-        0%, 100% { opacity: 0.6; transform: scale(1); }
-        50% { opacity: 1; transform: scale(1.05); }
+        0%, 100% { opacity: 0.5; transform: scale(1); }
+        50% { opacity: 0.9; transform: scale(1.05); }
       }
 
       .cn_arrow { animation: cn_nudge 1.5s infinite ease-in-out; }
@@ -43,19 +37,18 @@
     </style>
   </defs>
 
-  <!-- Main Background Container -->
-  <rect x="2" y="2" width="956" height="336" rx="20" fill="#0B0D17" />
+  <!-- Main Background Container (Light Leaf Parchment) -->
+  <rect x="2" y="2" width="956" height="336" rx="20" fill="#F8FAF9" />
   <rect x="2" y="2" width="956" height="336" rx="20" fill="url(#cn_dotGrid)" />
-  <rect x="2" y="2" width="956" height="336" rx="20" stroke="url(#cn_borderGrad)" stroke-width="1.2" />
+  <rect x="2" y="2" width="956" height="336" rx="20" stroke="url(#cn_borderGrad)" stroke-width="1.6" />
 
   <!-- LEFT: POINTING ANIME SHINOBI CHARACTER -->
   <g class="cn_char">
-    <!-- Ambient Chakra Aura behind character -->
-    <circle cx="155" cy="170" r="110" fill="#FF7A00" fill-opacity="0.12" class="cn_aura" />
-    <circle cx="155" cy="170" r="110" stroke="#FF7A00" stroke-width="1.5" stroke-opacity="0.3" stroke-dasharray="6 4" />
+    <circle cx="155" cy="170" r="110" fill="#10B981" fill-opacity="0.1" class="cn_aura" />
+    <circle cx="155" cy="170" r="110" stroke="#059669" stroke-width="1.5" stroke-opacity="0.4" stroke-dasharray="6 4" />
 
     <!-- Container Frame for Character -->
-    <rect x="30" y="25" width="250" height="290" rx="16" fill="#101524" stroke="#1E293B" stroke-width="1" />
+    <rect x="30" y="25" width="250" height="290" rx="16" fill="#13241C" stroke="#059669" stroke-width="1.5" />
     
     <!-- Character Image clipped -->
     <g clip-path="url(#cn_charClip)">
@@ -63,73 +56,71 @@
     </g>
 
     <!-- Glowing Speech / Jutsu Tag -->
-    <rect x="45" y="275" width="220" height="28" rx="8" fill="#0F1322" fill-opacity="0.9" stroke="#FF7A00" stroke-width="1" />
-    <text x="58" y="293" fill="#FDBA74" class="mono" font-size="10.5" font-weight="700">"DISPATCH A SUMMON // CONNECT"</text>
+    <rect x="45" y="275" width="220" height="28" rx="8" fill="#E8EFEA" fill-opacity="0.95" stroke="#059669" stroke-width="1.2" />
+    <text x="58" y="293" fill="#047857" class="mono" font-size="10.5" font-weight="800">"DISPATCH A SUMMON // CONNECT"</text>
   </g>
 
-  <!-- RIGHT: CONNECT & MISSION DISPATCH TILES -->
+  <!-- RIGHT: CONNECT & MISSION DISPATCH TILES IN LIGHT CARDS -->
   <g transform="translate(315, 30)">
     
-    <!-- Header -->
-    <text x="0" y="0" fill="#FF7A00" class="mono" font-size="12" font-weight="700" letter-spacing="1.5">// SUMMONING SCROLLS // INITIATE TRANSMISSION</text>
-    <text x="0" y="22" fill="#F8FAFC" class="sans" font-size="18" font-weight="700">Ready to build or scale high-impact platforms?</text>
-    <text x="0" y="40" fill="#94A3B8" class="sans" font-size="12.5">Send a message across the shinobi network. My inbox and terminal are always monitored.</text>
+    <text x="0" y="0" fill="#047857" class="mono" font-size="12" font-weight="700" letter-spacing="1.5">// SUMMONING SCROLLS // INITIATE TRANSMISSION</text>
+    <text x="0" y="22" fill="#0F172A" class="sans" font-size="18" font-weight="800">Ready to build or scale high-impact platforms?</text>
+    <text x="0" y="40" fill="#334155" class="sans" font-size="13" font-weight="500">Send a message across the shinobi network. My inbox and terminal are always monitored.</text>
 
-    <!-- Cards Grid (2 Columns, 2 Rows) -->
-    
-    <!-- Link 1: Night Owl Labs / Portfolio -->
+    <!-- Link 1: Night Owl Labs -->
     <g transform="translate(0, 60)">
-      <rect width="295" height="64" rx="12" fill="#101524" stroke="#1E293B" stroke-width="1" />
-      <rect x="12" y="12" width="40" height="40" rx="8" fill="#172036" stroke="#FF7A00" stroke-width="1" stroke-opacity="0.5" />
+      <rect width="295" height="64" rx="12" fill="#FFFFFF" stroke="#BBF7D0" stroke-width="1.2" />
+      <rect x="12" y="12" width="40" height="40" rx="8" fill="#ECFDF5" stroke="#10B981" stroke-width="1" />
       <text x="23" y="38" font-size="18">🌐</text>
-      <text x="62" y="30" fill="#F8FAFC" class="sans" font-size="13" font-weight="700">Night Owl Labs</text>
-      <text x="62" y="47" fill="#64748B" class="mono" font-size="10">STUDENT CAREER PLATFORM</text>
+      <text x="62" y="30" fill="#0F172A" class="sans" font-size="13" font-weight="800">Night Owl Labs</text>
+      <text x="62" y="47" fill="#047857" class="mono" font-size="10" font-weight="700">STUDENT CAREER PLATFORM</text>
       <g transform="translate(265, 32)" class="cn_arrow">
-        <text x="0" y="4" fill="#FF7A00" class="mono" font-size="16" font-weight="700">→</text>
+        <text x="0" y="4" fill="#059669" class="mono" font-size="16" font-weight="800">→</text>
       </g>
     </g>
 
-    <!-- Link 2: GitHub Profile -->
+    <!-- Link 2: GitHub -->
     <g transform="translate(310, 60)">
-      <rect width="295" height="64" rx="12" fill="#101524" stroke="#1E293B" stroke-width="1" />
-      <rect x="12" y="12" width="40" height="40" rx="8" fill="#172036" stroke="#22D3EE" stroke-width="1" stroke-opacity="0.5" />
+      <rect width="295" height="64" rx="12" fill="#FFFFFF" stroke="#99F6E4" stroke-width="1.2" />
+      <rect x="12" y="12" width="40" height="40" rx="8" fill="#F0FDFA" stroke="#14B8A6" stroke-width="1" />
       <text x="23" y="38" font-size="18">🐙</text>
-      <text x="62" y="30" fill="#F8FAFC" class="sans" font-size="13" font-weight="700">GitHub Shinobi HQ</text>
-      <text x="62" y="47" fill="#64748B" class="mono" font-size="10">@ashishdhillon</text>
+      <text x="62" y="30" fill="#0F172A" class="sans" font-size="13" font-weight="800">GitHub Shinobi HQ</text>
+      <text x="62" y="47" fill="#0F766E" class="mono" font-size="10" font-weight="700">@ashishdhillon</text>
       <g transform="translate(265, 32)" class="cn_arrow">
-        <text x="0" y="4" fill="#22D3EE" class="mono" font-size="16" font-weight="700">→</text>
+        <text x="0" y="4" fill="#0D9488" class="mono" font-size="16" font-weight="800">→</text>
       </g>
     </g>
 
     <!-- Link 3: LinkedIn -->
     <g transform="translate(0, 134)">
-      <rect width="295" height="64" rx="12" fill="#101524" stroke="#1E293B" stroke-width="1" />
-      <rect x="12" y="12" width="40" height="40" rx="8" fill="#172036" stroke="#0077B5" stroke-width="1" stroke-opacity="0.5" />
+      <rect width="295" height="64" rx="12" fill="#FFFFFF" stroke="#BFDBFE" stroke-width="1.2" />
+      <rect x="12" y="12" width="40" height="40" rx="8" fill="#EFF6FF" stroke="#3B82F6" stroke-width="1" />
       <text x="23" y="38" font-size="18">💼</text>
-      <text x="62" y="30" fill="#F8FAFC" class="sans" font-size="13" font-weight="700">LinkedIn Network</text>
-      <text x="62" y="47" fill="#64748B" class="mono" font-size="10">CONNECT &amp; COLLABORATE</text>
+      <text x="62" y="30" fill="#0F172A" class="sans" font-size="13" font-weight="800">LinkedIn Network</text>
+      <text x="62" y="47" fill="#1D4ED8" class="mono" font-size="10" font-weight="700">CONNECT &amp; COLLABORATE</text>
       <g transform="translate(265, 32)" class="cn_arrow">
-        <text x="0" y="4" fill="#60A5FA" class="mono" font-size="16" font-weight="700">→</text>
+        <text x="0" y="4" fill="#2563EB" class="mono" font-size="16" font-weight="800">→</text>
       </g>
     </g>
 
     <!-- Link 4: Direct Email Dispatch -->
     <g transform="translate(310, 134)">
-      <rect width="295" height="64" rx="12" fill="#101524" stroke="#1E293B" stroke-width="1" />
-      <rect x="12" y="12" width="40" height="40" rx="8" fill="#172036" stroke="#EF4444" stroke-width="1" stroke-opacity="0.5" />
+      <rect width="295" height="64" rx="12" fill="#FFFFFF" stroke="#FECACA" stroke-width="1.2" />
+      <rect x="12" y="12" width="40" height="40" rx="8" fill="#FEF2F2" stroke="#EF4444" stroke-width="1" />
       <text x="23" y="38" font-size="18">✉️</text>
-      <text x="62" y="30" fill="#F8FAFC" class="sans" font-size="13" font-weight="700">Dispatch Email</text>
-      <text x="62" y="47" fill="#64748B" class="mono" font-size="10">DIRECT INBOX REACHOUT</text>
+      <text x="62" y="30" fill="#0F172A" class="sans" font-size="13" font-weight="800">Dispatch Email</text>
+      <text x="62" y="47" fill="#B91C1C" class="mono" font-size="10" font-weight="700">DIRECT INBOX REACHOUT</text>
       <g transform="translate(265, 32)" class="cn_arrow">
-        <text x="0" y="4" fill="#F87171" class="mono" font-size="16" font-weight="700">→</text>
+        <text x="0" y="4" fill="#DC2626" class="mono" font-size="16" font-weight="800">→</text>
       </g>
     </g>
 
     <!-- Bottom Mission Terminal Banner -->
     <g transform="translate(0, 208)">
-      <rect width="605" height="34" rx="8" fill="#151C2C" stroke="#1E293B" stroke-width="1" />
-      <text x="14" y="21" fill="#10B981" class="mono" font-size="10.5">● STATUS: JUTSU SCROLLS ONLINE</text>
-      <text x="310" y="21" fill="#64748B" class="mono" font-size="10.5">RESPONSE TIME: &lt; 24 HOURS</text>
+      <rect width="605" height="34" rx="8" fill="#ECFDF5" stroke="#10B981" stroke-width="1.2" />
+      <circle cx="16" cy="17" r="4.5" fill="#059669" />
+      <text x="28" y="21" fill="#047857" class="mono" font-size="10.5" font-weight="800">STATUS: JUTSU SCROLLS ONLINE</text>
+      <text x="320" y="21" fill="#059669" class="mono" font-size="10.5" font-weight="700">RESPONSE TIME: &lt; 24 HOURS</text>
     </g>
 
   </g>
