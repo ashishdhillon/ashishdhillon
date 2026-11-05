@@ -33,7 +33,7 @@
 | [**guardkit**](https://github.com/ashishdhillon/guardkit) | Offline, deterministic guardrails for LLM apps. PII (Luhn/Verhoeff), secrets, prompt-injection & JSON validation without model downloads. | Python, PyYAML, Regex Heuristics | 🛡️ Active Library |
 | [**bharatid**](https://github.com/ashishdhillon/bharatid) | High-precision Indian identifier & PII detection (Aadhaar Verhoeff checksum, GSTIN Base-36, PAN, UPI, vehicle plates). Zero dependencies. | Pure Python 3.9+, Verhoeff Algorithm | 🇮🇳 Active Library |
 | [**injection-bench**](https://github.com/ashishdhillon/injection-bench) | Dependency-free evaluation harness for prompt-injection and jailbreak detectors with leakage-controlled time splits and operating-point metrics. | Python, Bootstrap CIs, JailbreakHub | 🔬 Eval Harness |
-| [**Night Owl Labs**](https://github.com/ashishdhillon/night-owl-labs) | Flagship student career platform connecting learning, practical projects, and career scaling (*From Labs to Limitless*). | Next.js 15, TypeScript, Tailwind CSS, Supabase, PostgreSQL | 🚀 Production |
+| **Night Owl Labs** | Flagship student career platform connecting learning, practical projects, and career scaling (*From Labs to Limitless*). | Next.js 15, TypeScript, Tailwind CSS, Supabase, PostgreSQL | 🚀 Production |
 
 </div>
 
