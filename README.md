@@ -33,6 +33,8 @@
 | [**guardkit**](https://github.com/ashishdhillon/guardkit) | Offline, deterministic guardrails for LLM apps. PII (Luhn/Verhoeff), secrets, prompt-injection & JSON validation without model downloads. | Python, PyYAML, Regex Heuristics | 🛡️ Active Library |
 | [**bharatid**](https://github.com/ashishdhillon/bharatid) | High-precision Indian identifier & PII detection (Aadhaar Verhoeff checksum, GSTIN Base-36, PAN, UPI, vehicle plates). Zero dependencies. | Pure Python 3.9+, Verhoeff Algorithm | 🇮🇳 Active Library |
 | [**injection-bench**](https://github.com/ashishdhillon/injection-bench) | Dependency-free evaluation harness for prompt-injection and jailbreak detectors with leakage-controlled time splits and operating-point metrics. | Python, Bootstrap CIs, JailbreakHub | 🔬 Eval Harness |
+| [**prompt-heist**](https://github.com/ashishdhillon/prompt-heist) ([Play live](https://ashishdhillon.github.io/prompt-heist/)) | A playful browser game where you talk five guards into leaking a password (prompt-injection practice). | JavaScript, HTML5, CSS3, Rule-Based Guards | 🎮 Live Game |
+| [**qr-studio**](https://github.com/ashishdhillon/qr-studio) ([Try live](https://ashishdhillon.github.io/qr-studio/)) | Colourful, shareable QR codes from any link, with gradients, shapes, an emoji or logo in the centre, and PNG/SVG export. | Pure JavaScript, SVG/Canvas, Zero Dependencies | ✨ Live App |
 | **Night Owl Labs** | Flagship student career platform connecting learning, practical projects, and career scaling (*From Labs to Limitless*). | Next.js 15, TypeScript, Tailwind CSS, Supabase, PostgreSQL | 🚀 Production |
 
 </div>
