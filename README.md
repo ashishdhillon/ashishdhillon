@@ -1,22 +1,22 @@
 <div align="center">
 
   <!-- ==================== 1. HERO VIEWPORT ==================== -->
-  <img src="hero.svg?v=3" width="100%" alt="Ashish Dhillon - Leaf Village Hero Viewfinder" />
+  <img src="hero.svg?v=4" width="100%" alt="Ashish Dhillon - Leaf Village Hero Viewfinder" />
 
   <br/><br/>
 
   <!-- ==================== 2. ABOUT & CHAKRA LIFE ==================== -->
-  <img src="about-life.svg?v=3" width="100%" alt="What I Build & Chakra Disciplines" />
+  <img src="about-life.svg?v=4" width="100%" alt="What I Build & Chakra Disciplines" />
 
   <br/><br/>
 
   <!-- ==================== 3. TECH STACK ORBIT ==================== -->
-  <img src="stack.svg?v=3" width="100%" alt="Arsenal of Jutsu - Orbiting Tech Stack" />
+  <img src="stack.svg?v=4" width="100%" alt="Arsenal of Jutsu - Orbiting Tech Stack" />
 
   <br/><br/>
 
   <!-- ==================== 4. ID BADGE & DASHBOARD ==================== -->
-  <img src="id-dashboard.svg?v=3" width="100%" alt="Konoha Dev Lanyard ID Badge & Telemetry Dashboard" />
+  <img src="id-dashboard.svg?v=4" width="100%" alt="Konoha Dev Lanyard ID Badge & Telemetry Dashboard" />
 
   <br/><br/>
 
@@ -47,9 +47,9 @@
 
   <!-- 3D Contribution Skyline (Green Animate / Night View) -->
   <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="profile-3d-contrib/profile-night-view.svg?v=3">
-    <source media="(prefers-color-scheme: light)" srcset="profile-3d-contrib/profile-green-animate.svg?v=3">
-    <img src="profile-3d-contrib/profile-green-animate.svg?v=3" width="100%" alt="Ashish's 3D Contribution City" onerror="this.style.display='none'" />
+    <source media="(prefers-color-scheme: dark)" srcset="profile-3d-contrib/profile-night-view.svg?v=4">
+    <source media="(prefers-color-scheme: light)" srcset="profile-3d-contrib/profile-green-animate.svg?v=4">
+    <img src="profile-3d-contrib/profile-green-animate.svg?v=4" width="100%" alt="Ashish's 3D Contribution City" onerror="this.style.display='none'" />
   </picture>
 
   <!-- Contribution Snake Fallback/Complement -->
@@ -68,7 +68,7 @@
 <div align="center">
 
   <!-- ==================== 5. CONNECT FOOTER ==================== -->
-  <img src="connect.svg?v=3" width="100%" alt="Shinobi Summon & Connect Links" />
+  <img src="connect.svg?v=4" width="100%" alt="Shinobi Summon & Connect Links" />
 
   <br/><br/>
 

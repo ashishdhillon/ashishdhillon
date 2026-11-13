@@ -140,8 +140,8 @@
         <text x="0" y="16" fill="#059669" class="mono" font-size="11" font-weight="700">CHAKRA DISCIPLINE [01 / 03]</text>
         <text x="0" y="42" fill="#0F172A" class="sans" font-size="18" font-weight="700">🛡️ AI Guardrails &amp; Fūinjutsu (Seals)</text>
         <text x="0" y="68" fill="#334155" class="sans" font-size="13">
-          <tspan x="0" dy="0">Building deterministic guardrails (`guardkit`), Verhoeff</tspan>
-          <tspan x="0" dy="20">checksum PII scrubbers (`bharatid`), and leak-free evals.</tspan>
+          <tspan x="0" dy="0">Building deterministic guardrails (guardkit), Verhoeff</tspan>
+          <tspan x="0" dy="20">checksum PII scrubbers (bharatid), and leak-free evals.</tspan>
         </text>
         <rect x="0" y="98" width="145" height="22" rx="6" fill="#ECFDF5" />
         <text x="10" y="113" fill="#047857" class="mono" font-size="10" font-weight="700">GUARDKIT · BHARATID</text>
@@ -176,7 +176,7 @@
     <g transform="translate(24, 230)">
       <text x="0" y="12" fill="#64748B" class="mono" font-size="11" font-weight="700">DAILY CHAKRA POOLS (HOURLY SYNC):</text>
 
-      <g transform="translate(25, 60)">
+      <g transform="translate(25, 38)">
         <circle cx="28" cy="28" r="24" stroke="#E2E8F0" stroke-width="4.5" fill="none" />
         <circle cx="28" cy="28" r="24" stroke="#059669" stroke-width="4.5" fill="none" stroke-dasharray="150" stroke-dashoffset="15" stroke-linecap="round" transform="rotate(-90 28 28)">
           <animate attributeName="stroke-dashoffset" values="150; 15" dur="2s" fill="freeze" />
@@ -185,7 +185,7 @@
         <text x="28" y="70" text-anchor="middle" fill="#047857" class="sans" font-size="11" font-weight="700">AI Guards</text>
       </g>
 
-      <g transform="translate(165, 60)">
+      <g transform="translate(165, 38)">
         <circle cx="28" cy="28" r="24" stroke="#E2E8F0" stroke-width="4.5" fill="none" />
         <circle cx="28" cy="28" r="24" stroke="#0D9488" stroke-width="4.5" fill="none" stroke-dasharray="150" stroke-dashoffset="25" stroke-linecap="round" transform="rotate(-90 28 28)">
           <animate attributeName="stroke-dashoffset" values="150; 25" dur="2s" fill="freeze" />
@@ -194,7 +194,7 @@
         <text x="28" y="70" text-anchor="middle" fill="#0F766E" class="sans" font-size="11" font-weight="700">Full-Stack</text>
       </g>
 
-      <g transform="translate(305, 60)">
+      <g transform="translate(305, 38)">
         <circle cx="28" cy="28" r="24" stroke="#E2E8F0" stroke-width="4.5" fill="none" />
         <circle cx="28" cy="28" r="24" stroke="#D97706" stroke-width="4.5" fill="none" stroke-dasharray="150" stroke-dashoffset="35" stroke-linecap="round" transform="rotate(-90 28 28)">
           <animate attributeName="stroke-dashoffset" values="150; 35" dur="2s" fill="freeze" />
